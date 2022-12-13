@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private int mCount=0;
+    private int mCount=10;
     private TextView mShowCount;
 
     @Override
@@ -25,10 +25,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void countUp(View view) {
-        mCount++;
-        if(mShowCount !=null){
+
+        mCount--;
+        if(mCount>-7){
+        if(mShowCount !=null) {
             mShowCount.setText(Integer.toString(mCount));
-                            }
+        }
+        }//solo hasta -7 se queda el descontador en -6
+        else{
+            Toast toast2 = Toast.makeText(this, R.string.toast_message2,Toast.LENGTH_SHORT);
+            toast2.show();
+        }
 
     }
 }
