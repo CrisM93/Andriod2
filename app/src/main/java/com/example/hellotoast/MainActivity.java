@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
        toast.show();
     }
 
-    public void countUp(View view) {
+    public void countUp(View view) {//metodo para mostrar al contador en la Text
 
         mCount--;
         if(mCount>-7){
