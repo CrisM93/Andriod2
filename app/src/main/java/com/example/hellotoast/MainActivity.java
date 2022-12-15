@@ -3,6 +3,7 @@ package com.example.hellotoast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -12,11 +13,23 @@ public class MainActivity extends AppCompatActivity {
     private int mCount=10;
     private TextView mShowCount;
 
+
+   //volley
+   //retrofit2
+   //gson_
+    //crear dos actividades_de una actividad a otra_
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
     mShowCount=(TextView) findViewById(R.id.show_count);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.d("Mainactivity", "onresume_checar en un log" );
     }
 
     public void showToast(View view) {
