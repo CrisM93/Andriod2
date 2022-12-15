@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-
+//ESTOY DESDE ANDRIOD2.1..
 public class MainActivity extends AppCompatActivity {
 
     private int mCount=10;
