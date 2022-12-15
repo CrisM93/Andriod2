@@ -7,7 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-//ESTOY DESDE ANDRIOD2.1..
+//ESTOY DESDE ANDRIOD2.1.._Zero
 public class MainActivity extends AppCompatActivity {
 
     private int mCount=10;
