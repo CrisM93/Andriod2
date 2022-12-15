@@ -2,7 +2,8 @@
     <string name="app_name">Hello Toast</string>
     <string name="button_label_toast">mensaje instantaneo...</string>
     <string name="button_label_count">Count</string>
-    <string name="count_initial_value">10</string>
+    <string name="button_label_zero">zero</string>
+    <string name="count_initial_value">0</string>
     <string name="toast_message">Hello Toast!</string>
-    <string name="toast_message2">Muchas felicidades llegaste al limite de este descontador</string>
+    <string name="toast_message2">Regresamos a cero</string>
 </resources>
